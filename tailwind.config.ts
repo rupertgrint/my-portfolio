@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss';
 
 export default {
+  darkMode: 'class',
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -17,8 +18,8 @@ export default {
         '1.5xl': ['1.375rem', '1.875rem'],
       },
       colors: {
-        background: '#f9f9f9',
-        foreground: '#000000',
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
         white: '#ffffff',
         gray: {
           'medium-dark': '#666666',
@@ -30,6 +31,5 @@ export default {
       },
     },
   },
-  darkMode: 'class',
   plugins: [],
 } satisfies Config;
