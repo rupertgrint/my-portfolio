@@ -25,6 +25,15 @@ export default {
         xxs: ['0.625rem', '0.875rem'],
         '1.5xl': ['1.375rem', '1.875rem'],
       },
+      animation: {
+        float: 'float 4s ease-in-out infinite',
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-8px)' },
+        },
+      },
     },
   },
   plugins: [],
