@@ -3,7 +3,7 @@ import HeroHeader from './HeroHeader';
 
 export default function HeroSection() {
   return (
-    <div>
+    <div className='px-4'>
       <HeroHeader />
       <HeroCard />
     </div>

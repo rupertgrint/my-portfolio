@@ -23,11 +23,13 @@ body {
   :root {
     --background: #f9f9f9;
     --foreground: #171717;
+    --text-primary: #374151;
   }
 
   .dark {
     --background: #1a1a1a;
     --foreground: #f5f5f5;
+    --text-primary: #d1d5db;
   }
 }
 
