@@ -9,24 +9,29 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
+        gray: {
+          'medium-dark': '#666666',
+          'medium-light': '#CCCCCC',
+        },
+      },
       fontFamily: {
-        satoshi: ['var(--font-sans)'],
-        mono: ['var(--font-mono)'],
+        satoshi: ['Satoshi', 'Arial', 'sans-serif'],
+        mono: ['mono'],
       },
       fontSize: {
         xxs: ['0.625rem', '0.875rem'],
         '1.5xl': ['1.375rem', '1.875rem'],
       },
-      colors: {
-        background: 'var(--background)',
-        foreground: 'var(--foreground)',
-        white: '#ffffff',
-        gray: {
-          'medium-dark': '#666666',
-          'medium-light': '#CCCCCC',
-        },
-        red: {
-          DEFAULT: '#E63946',
+      animation: {
+        float: 'float 4s ease-in-out infinite',
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-8px)' },
         },
       },
     },
