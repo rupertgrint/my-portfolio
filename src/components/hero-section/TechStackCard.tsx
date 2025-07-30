@@ -46,7 +46,7 @@ export default function TechStackCard() {
           }}
         >
           <tech.icon
-            className=' drop-shadow-sm group-hover:text-2xl transition-all duration-300'
+            className='text-xl drop-shadow-sm group-hover:text-2xl transition-all duration-300'
             style={{ color: tech.iconColor }}
           />
         </div>
