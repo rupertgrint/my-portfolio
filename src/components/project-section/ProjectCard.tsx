@@ -1,7 +1,6 @@
 import { Project } from '../../../public/types/project';
-import Image from 'next/image';
 import ImageSection from './ImageSection';
-import RoundButton from '../ui/roundButton';
+import RoundButton from '../ui/RoundButton';
 
 type Props = Project & { style?: React.CSSProperties };
 
