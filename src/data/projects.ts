@@ -14,6 +14,7 @@ export const projects: Project[] = [
       'Vercel',
     ],
     images: ['/images/portfolio-home.png'],
+    url: 'https://hyun-park.vercel.app',
   },
   {
     id: 'hongchan-app',
