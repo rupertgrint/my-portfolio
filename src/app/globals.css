@@ -24,9 +24,9 @@
   }
 
   .dark {
-    --background: #1a1a1a;
-    --foreground: #f5f5f5;
-    --text-primary: #d1d5db;
+    --background: #0a0a0f;
+    --foreground: #f8fafc;
+    --text-primary: #cbd5e1;
   }
 
   body {
