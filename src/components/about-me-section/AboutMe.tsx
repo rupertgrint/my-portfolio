@@ -7,26 +7,26 @@ export default function AboutMe() {
       <div className='px-8 md:px-10 py-12 max-w-prose mx-auto text-md md:text-lg text-left leading-relaxed space-y-6 text-text-primary'>
         <p>
           Hi, I’m <strong>Hyun</strong>— <strong>a software engineer</strong>{' '}
-          with a unique background that blends design, leadership, and a deep
+          with a unique background that blends design, communication, and a deep
           passion for building thoughtful digital experiences.
         </p>
         <p>
           Before transitioning into tech, I worked in
           <strong> education, design, and cafe management</strong> — experiences
-          that taught me how to lead, systemise, and communicate clearly. As a
-          cafe supervisor, I built onboarding tools like training docs and a
-          shared stock system to improve daily workflows and team communication.
-          These hands-on, people-focused roles helped shape how I approach
-          software: with empathy, structure, and a mindset for growth.
+          that taught me how to systemise, communicate clearly, and work
+          collaboratively. As a cafe supervisor, I built onboarding tools like
+          training docs and a shared stock system to improve daily workflows and
+          team communication. These hands-on, people-focused roles helped shape
+          how I approach software: with empathy, structure, and a mindset for
+          growth.
         </p>
         <p>
           At university in Korea, I served as
           <strong> student council president</strong>, leading events for
-          students and alumni and co-organising national-level education
-          seminars with other institutions. Representing my peers and
-          collaborating across teams helped me build strong communication and
-          planning skills that continue to shape how I work on cross-functional
-          tech teams today.
+          students and alumni and co-organising education seminars with other
+          institutions. Representing my peers and collaborating across teams
+          helped me build strong communication and planning skills that continue
+          to shape how I work on cross-functional tech teams today.
         </p>
         <p>
           After earning my
