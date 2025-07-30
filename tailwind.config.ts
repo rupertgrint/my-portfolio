@@ -24,6 +24,7 @@ export default {
       fontFamily: {
         satoshi: ['Satoshi', 'Arial', 'sans-serif'],
         mono: ['mono'],
+        museo: ['var(--font-museo)'],
       },
       fontSize: {
         xxs: ['0.625rem', '0.875rem'],
