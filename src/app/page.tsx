@@ -1,4 +1,5 @@
 import AboutMe from '@/components/about-me-section/AboutMe';
+import Footer from '@/components/footer-section/Footer';
 import HeroSection from '@/components/hero-section/HeroSection';
 import ProjectSection from '@/components/project-section/ProjectSection';
 
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <AboutMe />
       <ProjectSection />
+      <Footer />
     </div>
   );
 }
