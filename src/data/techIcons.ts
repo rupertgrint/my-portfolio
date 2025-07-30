@@ -99,9 +99,9 @@ export const getRadialGradient = (color: string) => {
     'lavender-dark':
       'radial-gradient(circle, rgba(160, 170, 230, 0.5) 0%, rgba(160, 170, 230, 0.3) 50%, transparent 100%)',
     'blue-dark':
-      'radial-gradient(circle, rgba(110, 160, 255, 0.7) 0%, rgba(110, 160, 255, 0.35) 50%, transparent 100%)',
+      'radial-gradient(circle, rgba(110, 160, 255, 0.7) 0%, rgba(110, 160, 255, 0.3) 50%, transparent 100%)',
     'sage-dark':
-      'radial-gradient(circle, rgba(160, 200, 120, 0.7) 0%, rgba(160, 200, 120, 0.5) 50%, transparent 100%)',
+      'radial-gradient(circle, rgba(160, 200, 120, 0.7) 0%, rgba(160, 200, 120, 0.4) 50%, transparent 100%)',
   };
 
   return colorMap[color] || colorMap['soft-blue'];
