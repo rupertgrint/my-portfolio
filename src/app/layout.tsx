@@ -29,6 +29,9 @@ const satoshi = localFont({
 export const metadata: Metadata = {
   title: 'Hyun Park Portfolio',
   description: 'Created by Hyun Heather Park',
+  icons: {
+    icon: '/icon.png',
+  },
 };
 
 export default function RootLayout({
