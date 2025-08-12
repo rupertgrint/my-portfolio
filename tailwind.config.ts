@@ -14,10 +14,11 @@ export default {
         foreground: 'var(--foreground)',
         text: {
           primary: 'var(--text-primary)',
+          secondary: 'var(--text-secondary)',
         },
         gray: {
           dark: '#0F0E0E',
-          'medium-dark': '#666666',
+          'medium-dark': 'var(--gray-medium-dark)',
           'medium-light': '#CCCCCC',
         },
       },

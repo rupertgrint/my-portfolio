@@ -19,13 +19,9 @@ export default function ProjectCard({
     >
       <div className='flex-1 flex flex-col justify-start md:justify-end'>
         <div className='flex flex-col gap-2'>
-          <h1 className='text-lg font-semibold text-text-primary dark:text-background'>
-            {title}
-          </h1>
-          <p className='text-text-primary dark:text-background text-md'>
-            {description}
-          </p>
-          <ul className='flex flex-wrap text-sm gap-1 py-1 text-gray-medium-dark dark:text-background'>
+          <h1 className='text-lg font-semibold text-text-secondary'>{title}</h1>
+          <p className='text-text-secondary text-md'>{description}</p>
+          <ul className='flex flex-wrap text-sm gap-1 py-1 text-gray-medium-dark'>
             {techStack?.map((tech, index) => (
               <li key={index} className='whitespace-nowrap'>
                 {tech}

@@ -60,8 +60,8 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      suppressHydrationWarning
       lang='en'
+      suppressHydrationWarning
       className={`${museoModerno.variable} ${satoshi.variable}`}
     >
       <body>
