@@ -16,8 +16,7 @@ export default function HeroHeader() {
   }, [darkMode]);
 
   return (
-    <header className='flex items-center justify-between w-full py-4'>
-      <span></span>
+    <header className='flex items-center justify-end w-full py-4'>
       <button
         aria-label='Toggle Dark Mode'
         onClick={() => setDarkMode((prev) => !prev)}
