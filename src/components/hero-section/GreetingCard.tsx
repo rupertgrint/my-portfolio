@@ -1,7 +1,7 @@
 export default function GreetingCard() {
   return (
     <div className='py-10 flex flex-col'>
-      <h1 className='text-4xl md:text-5xl font-medium pb-2 font-museo'>
+      <h1 className='text-3xl md:text-5xl font-medium pb-2 font-museo'>
         Greeting,
         <br />
         I&apos;m Hyun Park
