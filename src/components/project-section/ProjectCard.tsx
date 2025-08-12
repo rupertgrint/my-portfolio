@@ -15,7 +15,7 @@ export default function ProjectCard({
   return (
     <div
       style={style}
-      className='flex flex-col md:flex-row p-10 md:p-8 my-14 min-h-[500px] mx-4 rounded-lg'
+      className='flex flex-col md:flex-row p-10 md:p-8 my-14 min-h-[500px] rounded-lg'
     >
       <div className='flex-1 flex flex-col justify-start md:justify-end'>
         <div className='flex flex-col gap-2'>
