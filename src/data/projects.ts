@@ -68,7 +68,7 @@ export const projects: Project[] = [
     title: 'Momentum App',
     description:
       'A productivity and focus web app inspired by Momentum. Includes features like greeting, real-time clock, daily to-do list, weather, and quotes — all stored in localStorage. Designed for a clean user experience without backend.',
-    techStack: ['React', 'HTML5', 'CSS3', 'REST APIs', 'LocalStorage'],
+    techStack: ['HTML5', 'CSS3', 'Web APIs'],
     images: ['/images/momentup-app.png'],
     url: 'https://github.com/rupertgrint/momentum-clone-1',
   },

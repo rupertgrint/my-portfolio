@@ -10,7 +10,7 @@ export default function RoundButton({ url }: Props) {
       rel='noopener noreferrer'
       className='inline-block'
     >
-      <button className='border border-foreground rounded-3xl px-3 py-1 bg-transparent text-sm mt-1 transition-all duration-300 ease-in-out hover:shadow-md hover:bg-white hover:bg-opacity-30'>
+      <button className='border border-foreground dark:border-background dark:text-background rounded-3xl px-3 py-1 bg-transparent text-sm mt-1 transition-all duration-300 ease-in-out hover:shadow-md hover:bg-white hover:bg-opacity-30'>
         More
       </button>
     </a>

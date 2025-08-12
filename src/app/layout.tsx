@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { MuseoModerno } from 'next/font/google';
 import localFont from 'next/font/local';
+import { ThemeProvider } from 'next-themes';
 
 const museoModerno = MuseoModerno({
   subsets: ['latin'],
@@ -58,8 +59,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' className={`${museoModerno.variable} ${satoshi.variable}`}>
-      <body>{children}</body>
+    <html
+      suppressHydrationWarning
+      lang='en'
+      className={`${museoModerno.variable} ${satoshi.variable}`}
+    >
+      <body>
+        <ThemeProvider attribute='class' defaultTheme='light' enableSystem>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
