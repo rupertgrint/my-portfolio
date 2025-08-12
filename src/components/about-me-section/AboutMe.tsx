@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <div className='py-20'>
       <ListTitle title='About Me' num='01' />
-      <div className='py-12 max-w-prose mx-auto text-md md:text-lg text-left leading-relaxed space-y-6 text-text-primary'>
+      <div className='py-12 max-w-prose mx-auto text-md md:text-lg text-center md:text-left leading-relaxed space-y-6 text-text-primary'>
         <p>
           Hi, I’m <strong>Hyun</strong>— <strong>a software engineer</strong>{' '}
           with a unique background that blends design, communication, and a deep
