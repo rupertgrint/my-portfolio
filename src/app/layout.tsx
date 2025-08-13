@@ -28,6 +28,7 @@ const satoshi = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://hyunpark.dev'),
   title: 'Hyun Heather Park | Software Engineer Portfolio',
   description:
     'Portfolio of Hyun Heather Park (also known as Hyun Park) — showcasing projects, skills, and experience as a front-end and full-stack software engineer. Built with Next.js, TypeScript, and Tailwind CSS.',
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
     siteName: 'Hyun Heather Park Portfolio',
     images: [
       {
-        url: '/og-image.png',
+        url: '/images/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Hyun Heather Park Portfolio Preview',
