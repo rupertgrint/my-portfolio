@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my journey as a software engineer, built with Next.js 15 and React 19.
 
-🌐 **Live Demo**: [hyun-park.vercel.app](https://hyun-park.vercel.app)
+🌐 **Live Demo**: [hyunpark.dev](https://hyunpark.dev)
 
 ## 🚀 About
 
@@ -10,7 +10,7 @@ This portfolio represents my transition from education and design into software 
 
 ## ✨ Features
 
-- **Responsive Design**: Optimized for all device sizes with mobile-first approach
+- **Responsive Design**: Optimised for all device sizes
 - **Dark/Light Theme**: Seamless theme switching with persistent user preference
 - **Interactive Animations**: Smooth transitions and floating tech stack icons
 - **Project Showcase**: Dynamic project cards with detailed descriptions and tech stacks
@@ -25,13 +25,12 @@ This portfolio represents my transition from education and design into software 
 - **Icons**: React Icons
 - **Theme Management**: next-themes
 - **Deployment**: Vercel
-- **Code Quality**: ESLint, TypeScript strict mode
 
 ## 📂 Project Structure
 
 ```
 src/
-├── app/                    # Next.js app directory
+├── app/                   # Next.js app directory
 │   ├── globals.css        # Global styles and Tailwind imports
 │   ├── layout.tsx         # Root layout component
 │   └── page.tsx           # Home page
@@ -66,10 +65,10 @@ src/
 
 ### Projects Showcase
 
-- **Hongchan Nihongo**: Japanese learning platform (React 19, Next.js 15, PostgreSQL)
-- **Coffee Roastery E-commerce**: Full-stack e-commerce site (React, Firebase, Cloudinary)
-- **YouTube Clone**: Video platform with API integration (React, YouTube Data API)
-- **Momentum App**: Productivity web app (Vanilla JavaScript, Web APIs)
+- **Hongchan Nihongo**: Japanese learning platform (React 19, Next.js 15, TypeScript, PostgreSQL)
+- **Coffee Roastery E-commerce**: Full-stack e-commerce site (React, JavaScript, Firebase, Cloudinary)
+- **YouTube Clone**: Video platform with API integration (React, JavaScript, YouTube Data API)
+- **Momentum App**: Productivity web app (JavaScript, Web APIs)
 
 ## 🚦 Getting Started
 
@@ -83,7 +82,7 @@ src/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/rupertgrint/my-portfolio.git
    cd portfolio
    ```
 
@@ -111,7 +110,7 @@ npm start
 
 ## 📱 Responsive Design
 
-The portfolio is fully responsive with breakpoints optimized for:
+The portfolio is fully responsive with breakpoints optimised for:
 
 - Mobile devices (320px+)
 - Tablets (768px+)
@@ -120,29 +119,22 @@ The portfolio is fully responsive with breakpoints optimized for:
 
 ## 🎯 Performance
 
-- **Lighthouse Score**: 95+ across all metrics
 - **Core Web Vitals**: Optimized for excellent user experience
-- **Image Optimization**: Next.js automatic image optimization
+- **Image Optimisation**: Next.js automatic image optimisation
 - **Code Splitting**: Automatic code splitting for faster page loads
 
-## 🔧 Customization
+## 🔧 Customisation
 
-The portfolio is designed to be easily customizable:
+The portfolio is designed to be easily customisable:
 
 - **Projects**: Update `src/data/projects.ts` to add/modify projects
 - **Tech Stack**: Modify `src/data/techIcons.ts` for different technologies
-- **Styling**: Customize colors and themes in `tailwind.config.ts`
+- **Styling**: Customise colors and themes in `tailwind.config.ts`
 - **Content**: Update component files for different copy and messaging
 
 ## 📄 Resume
 
 My detailed resume is available for download directly from the portfolio site.
-
-## 🤝 Contact
-
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
 
 ## 📝 License
 
